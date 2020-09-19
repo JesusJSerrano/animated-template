@@ -9,8 +9,13 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body class="text-gray-800 antialiased">
 
@@ -21,7 +26,7 @@
           <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
                 <!-- Nav Title -->
-                Creative Tim
+                CARAuctions 
               </a>
               <!-- Hamburger Menu (Mobile) -->
               <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -68,7 +73,7 @@
   <main>
     <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
       <!-- Background Image -->
-      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background: url(https://images.unsplash.com/photo-1519826359113-688bb6899cc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80)">
         <!-- Overlay -->
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
@@ -77,11 +82,11 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
-                Welcome your epiphany.
+              <h1 class="text-white font-semibold text-5xl"  data-aos="fade-up">
+                The car you want for your next adventure.
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
-                Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
+                Get the car, yatch, motorbike you need, for the right price!
               </p>
             </div>
           </div>
@@ -116,7 +121,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <!-- Card -->
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fate-right" data-aos-delay="1200">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
@@ -132,7 +137,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fate-up" data-aos-delay="1400">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
@@ -148,7 +153,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fate-up">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -195,8 +200,8 @@
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
               <!-- Image -->
               <img
-                alt="..."
-                src=""
+                alt="yatch"
+                src="https://images.unsplash.com/photo-1581221229249-0796634d581f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                 class="w-full align-middle rounded-t-lg"
               />
               <blockquote class="relative p-8 mb-4">
@@ -256,9 +261,9 @@
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
             <!-- Image -->
             <img
-              alt="..."
+              alt="ski jet"
               class="max-w-full rounded-lg shadow-lg"
-              src=""
+              src="https://images.unsplash.com/photo-1564633351631-e85bd59a91af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
             />
           </div>
           <!-- Text Box Container-->
@@ -348,31 +353,27 @@
             <div class="px-6">
               <!-- Image -->
               <img
-                alt="..."
-                src=""               
+                alt=""
+                src="https://randomuser.me/api/portraits/women/59.jpg"               
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">Ryan Thompson</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Web Developer
+                  Porsche Panamera
                 </p>
-                <!-- Social Media Buttons -->
-                <div class="mt-6">
-                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-dribbble"></i>
-                  </button>
-                </div>
+                <!-- Comments -->
+                <p class="mt-1 text-sm">
+                  I have never dreamed of driving a Porsche in my life...
+                </p>
+                <!-- Ratings -->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-o checked"></span>
+                <span class="fa fa-star"></span>
+                <!-- End of Ratings -->
               </div>
             </div>
           </div>
@@ -382,7 +383,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/39.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -391,17 +392,17 @@
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Marketing Specialist
                 </p>
-                <!-- Social Media Buttons -->
-                <div class="mt-6">
-                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-google"></i>
-                  </button>
-                  <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                </div>
+                <!-- Comments -->
+                <p class="mt-1 text-sm">
+                  I have never dreamed of driving a Porsche in my life...
+                </p>
+                <!-- Ratings -->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <!-- End of Ratings -->             
               </div>
             </div>
           </div>
@@ -411,7 +412,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/68.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -420,21 +421,17 @@
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   UI/UX Designer
                 </p>
-                <!-- Social Media Buttons -->
-                <div class="mt-6">
-                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-google"></i>
-                  </button>
-                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                </div>
+                <!-- Comments -->
+                <p class="mt-1 text-sm">
+                  I have never dreamed of driving a Porsche in my life...
+                </p>
+                <!-- Ratings -->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <!-- End of Ratings -->
               </div>
             </div>
           </div>
@@ -444,7 +441,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/33.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -453,25 +450,17 @@
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Founder and CEO
                 </p>
-                <!-- Social Media Buttons -->
-                <div class="mt-6">
-                  <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-dribbble"></i>
-                  </button>
-                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-google"></i>
-                  </button>
-                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                    <!-- Icon -->
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                </div>
+                <!-- Comments -->
+                <p class="mt-1 text-sm">
+                  I have never dreamed of driving a Porsche in my life...
+                </p>
+                <!-- Ratings -->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-o checked"></span>
+                <span class="fa fa-star"></span>
+                <!-- End of Ratings --> 
               </div>
             </div>
           </div>
@@ -737,6 +726,17 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+<!-- AOS.js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  delay: 200, // values from 0 to 3000, with step 50ms
+  duration: 1500, // values from 0 to 3000, with step 50ms
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  });
+</script>
 <!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
